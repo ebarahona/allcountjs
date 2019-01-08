@@ -1,0 +1,42 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - bower-installer > bower > request > hawk:
+        patched: '2019-01-08T02:39:23.818Z'
+    - bower-installer > bower > bower-registry-client > request > hawk:
+        patched: '2019-01-08T02:39:23.818Z'
+  'npm:http-signature:20150122':
+    - bower-installer > bower > request > http-signature:
+        patched: '2019-01-08T02:39:23.818Z'
+    - bower-installer > bower > bower-registry-client > request > http-signature:
+        patched: '2019-01-08T02:39:23.818Z'
+  'npm:mime:20170907':
+    - bower-installer > bower > request > form-data > mime:
+        patched: '2019-01-08T02:39:23.818Z'
+  'npm:minimatch:20160620':
+    - bower-installer > bower > glob > minimatch:
+        patched: '2019-01-08T02:39:23.818Z'
+  'npm:request:20160119':
+    - bower-installer > bower > bower-registry-client > request:
+        patched: '2019-01-08T02:39:23.818Z'
+    - bower-installer > bower > request:
+        patched: '2019-01-08T02:39:23.818Z'
+  'npm:semver:20150403':
+    - bower-installer > bower > semver:
+        patched: '2019-01-08T02:39:23.818Z'
+    - bower-installer > bower > update-notifier > semver-diff > semver:
+        patched: '2019-01-08T02:39:23.818Z'
+  'npm:shell-quote:20160621':
+    - bower-installer > bower > shell-quote:
+        patched: '2019-01-08T02:39:23.818Z'
+  'npm:tunnel-agent:20170305':
+    - bower-installer > bower > request > tunnel-agent:
+        patched: '2019-01-08T02:39:23.818Z'
+    - bower-installer > bower > bower-registry-client > request > tunnel-agent:
+        patched: '2019-01-08T02:39:23.818Z'
+  'npm:uglify-js:20151024':
+    - bower-installer > bower > handlebars > uglify-js:
+        patched: '2019-01-08T02:39:23.818Z'
