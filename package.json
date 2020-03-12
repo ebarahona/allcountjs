@@ -50,7 +50,7 @@
     "jade": "^1.8.1",
     "just": "0.1.8",
     "keygrip": "^1.0.1",
-    "knex": "^0.7.6",
+    "knex": "^0.16.4",
     "less-middleware": "^1.0.4",
     "lodash": "~3.0.0",
     "marked": "^0.3.2",
