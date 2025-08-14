@@ -35,7 +35,7 @@
   "dependencies": {
     "allcountjs-mailgun": "^1.0.0",
     "body-parser": "1.0.1",
-    "bower-installer": "^0.8.4",
+    "bower-installer": "^1.3.2",
     "cloudinary": "^1.2.1",
     "connect-busboy": "^0.0.1",
     "console-stamp": "^0.1.3",
